@@ -8,7 +8,8 @@ import { CoursesListComponent } from './components/courses-list/courses-list.com
 import { CoursesComponent } from './containers/courses/courses.component';
 import { CourseFormComponent } from './containers/course-form/course-form.component';
 import { CoursesRoutingModule } from './courses-routing.module';
-
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,9 @@ import { CoursesRoutingModule } from './courses-routing.module';
     CoursesRoutingModule,
     AppMaterialModule,
     SharedModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatToolbarModule,
+    MatTableModule
   ]
 })
 export class CoursesModule { }

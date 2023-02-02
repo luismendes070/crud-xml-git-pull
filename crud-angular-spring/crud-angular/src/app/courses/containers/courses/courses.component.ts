@@ -10,6 +10,7 @@ import { ErrorDialogComponent } from '../../../shared/components/error-dialog/er
 import { Course } from '../../model/course';
 import { CoursesService } from '../../services/courses.service';
 
+
 @Component({
   selector: 'app-courses',
   templateUrl: './courses.component.html',
