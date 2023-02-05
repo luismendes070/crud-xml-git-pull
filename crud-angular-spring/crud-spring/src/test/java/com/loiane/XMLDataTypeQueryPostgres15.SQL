@@ -17,3 +17,7 @@ CREATE TABLE XMLCourses (
 
 INSERT INTO XMLCourses (name, category, status)
 VALUES ('Java Fundamentals', 'Back-end', 'Ativo');
+
+
+
+
