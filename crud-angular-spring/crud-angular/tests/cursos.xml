@@ -1,7 +1,0 @@
-<courses>
-  <xs:element name="courses" type="yyy" />
-  <id>123456789</id>
-  <name>Course Name<name>
-  <category>backend<category>
-</xs:element>
-</courses>
