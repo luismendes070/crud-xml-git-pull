@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -12,11 +13,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
-  declarations: [
-    CoursesComponent,
-    CourseFormComponent,
-    CoursesListComponent
-  ],
+  declarations: [CoursesComponent, CourseFormComponent, CoursesListComponent],
   imports: [
     CommonModule,
     CoursesRoutingModule,
@@ -24,7 +21,8 @@ import { MatTableModule } from '@angular/material/table';
     SharedModule,
     ReactiveFormsModule,
     MatToolbarModule,
-    MatTableModule
-  ]
+    MatTableModule,
+    HttpClientModule
+  ],
 })
-export class CoursesModule { }
+export class CoursesModule {}
