@@ -12,9 +12,13 @@ import com.loiane.dto.mapper.CourseMapper;
 import com.loiane.exception.RecordNotFoundException;
 import com.loiane.repository.CourseRepository;
 
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Positive;
+import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Positive;
+
+// import jakarta.validation.Valid;
+// import jakarta.validation.constraints.NotNull;
+// import jakarta.validation.constraints.Positive;
 
 @Validated
 @Service
@@ -47,8 +51,8 @@ public class CourseService {
     public CourseDTO update(@NotNull @Positive Long id, @Valid @NotNull CourseDTO course) {
         return courseRepository.findById(id)
                 .map(recordFound -> {
-                    recordFound.setName(course.name());
-                    recordFound.setCategory(course.category());
+                    recordFound.setName(course.getName());
+                    recordFound.setCategory(course.getCategory());
                     return courseMapper.toDTO(courseRepository.save(recordFound));
                 }).orElseThrow(() -> new RecordNotFoundException(id));
     }

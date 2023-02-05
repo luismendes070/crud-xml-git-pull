@@ -2,9 +2,13 @@ package com.loiane.controller;
 
 import java.util.List;
 
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Positive;
+import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Positive;
+
+// import jakarta.validation.Valid;
+// import jakarta.validation.constraints.NotNull;
+// import jakarta.validation.constraints.Positive;
 
 import com.loiane.dto.CourseDTO;
 import com.loiane.service.CourseService;

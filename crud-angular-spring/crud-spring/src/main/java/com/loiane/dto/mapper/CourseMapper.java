@@ -22,11 +22,11 @@ public class CourseMapper {
         }
 
         Course course = new Course();
-        if (courseDTO.id() != null) {
-            course.setId(courseDTO.id());
+        if (courseDTO.getId() != null) {
+            course.setId(courseDTO.getId());
         }
-        course.setName(courseDTO.name());
-        course.setCategory(courseDTO.category());
+        course.setName(courseDTO.getName());
+        course.setCategory(courseDTO.getCategory());
         course.setStatus("Ativo");
         return course;
     }

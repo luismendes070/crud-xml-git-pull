@@ -12,8 +12,18 @@ import org.springframework.context.annotation.Bean;
 public class CrudSpringApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrudSpringApplication.class, args);
-	}
+		try {
+            System.setProperty("spring.profiles.active", "local");
+			SpringApplication.run(com.loiane.CrudSpringApplication.class, args);
+		}catch (IllegalStateException e){
+
+		}
+		catch (Exception e){
+
+		}finally {
+
+		}
+	} // end main method
 
 	@Bean
 	CommandLineRunner initDatabase(CourseRepository courseRepository) {
