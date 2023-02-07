@@ -3,7 +3,7 @@ import { XmlService } from './xml.service';
 
 @Component({
   selector: 'app-xml',
-  template: <pre>{{ xmlData }}</pre>,
+  template: <pre>{{ xmlData:string }}</pre>,
   templateUrl: './xml.component.html',
   styleUrls: ['./xml.component.scss'],
 })
