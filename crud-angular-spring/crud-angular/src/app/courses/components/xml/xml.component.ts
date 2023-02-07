@@ -13,7 +13,7 @@ export class XmlComponent implements OnInit {
   constructor(private xmlService: XmlService) {}
 
   ngOnInit() {
-    this.xmlService.getXmlData().subscribe((data) => {
+    this.xmlService.getXmlData().subscribe((data:string) => {
       this.xmlData = data;
     });
   }
