@@ -11,9 +11,10 @@ import { CourseFormComponent } from './containers/course-form/course-form.compon
 import { CoursesRoutingModule } from './courses-routing.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTableModule } from '@angular/material/table';
+import { XmlComponent } from './components/xml/xml.component';
 
 @NgModule({
-  declarations: [CoursesComponent, CourseFormComponent, CoursesListComponent],
+  declarations: [CoursesComponent, CourseFormComponent, CoursesListComponent, XmlComponent],
   imports: [
     CommonModule,
     CoursesRoutingModule,
