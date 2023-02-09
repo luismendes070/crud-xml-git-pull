@@ -1,4 +1,4 @@
-package com.loiane.logs;
+package com.loiane.model;
 
 import javax.persistence.*;
 import java.util.Date;
