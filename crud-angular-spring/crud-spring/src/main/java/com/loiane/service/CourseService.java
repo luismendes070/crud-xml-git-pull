@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PathVariable;
+// import org.springframework.web.bind.annotation.PathVariable;
 
 import com.loiane.dto.CourseDTO;
 import com.loiane.dto.mapper.CourseMapper;
@@ -39,7 +39,7 @@ public class CourseService {
                 .collect(Collectors.toList());
     }
 
-    public CourseDTO findById(@PathVariable @NotNull @Positive Long id) {
+    public CourseDTO findById(@XmlPathVariable @NotNull @Positive Long id) {
         return courseRepository.findById(id).map(courseMapper::toDTO)
                 .orElseThrow(() -> new RecordNotFoundException(id));
     }
