@@ -1,18 +1,3 @@
-import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
-
-@Injectable({
-  providedIn: 'root'
-})
-export class XmlService {
-
-  // ng g s courses/services/xml
-  // constructor() { } // end empty constructor
-
-    constructor(private http: HttpClient) { }
-
-  getXmlData() {
-    return this.http.get('/api/xml', { responseType: 'text' });
-  }
-
-} // end class XmlService
+version https://git-lfs.github.com/spec/v1
+oid sha256:84f1f8ccc2601cc5688607d86d7297f0df5ae3e8624a180dc699b82f19a66f23
+size 402

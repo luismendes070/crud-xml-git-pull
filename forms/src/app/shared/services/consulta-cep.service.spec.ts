@@ -1,15 +1,3 @@
-import { TestBed, inject } from '@angular/core/testing';
-
-import { ConsultaCepService } from './consulta-cep.service';
-
-describe('ConsultaCepService', () => {
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      providers: [ConsultaCepService]
-    });
-  });
-
-  it('should be created', inject([ConsultaCepService], (service: ConsultaCepService) => {
-    expect(service).toBeTruthy();
-  }));
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:8de114bd4688a1a0b6b019c204c035b935276347fa254c803b74ab1cfebe2a1f
+size 405

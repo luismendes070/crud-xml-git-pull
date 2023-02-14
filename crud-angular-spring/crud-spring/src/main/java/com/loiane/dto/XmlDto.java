@@ -1,33 +1,3 @@
-package com.loiane.dto;
-
-import javax.xml.bind.annotation.XmlRootElement;
-
-@XmlRootElement
-public class XmlDto {
-    private String name;
-    private String description;
-
-    public XmlDto() {}
-
-    public XmlDto(String name, String description) {
-        this.name = name;
-        this.description = description;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-} // end class XmlDto
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:895f39698544b4383172151421b477078722838cd0a9d176d40c8fd40f0711e9
+size 645

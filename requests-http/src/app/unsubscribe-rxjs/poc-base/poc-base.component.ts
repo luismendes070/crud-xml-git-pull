@@ -1,19 +1,3 @@
-import { Component, OnInit, Input } from '@angular/core';
-
-@Component({
-  selector: 'app-poc-base',
-  templateUrl: './poc-base.component.html',
-  styleUrls: ['./poc-base.component.scss']
-})
-export class PocBaseComponent implements OnInit {
-
-  @Input() nome: string;
-  @Input() valor: string;
-  @Input() estilo: string;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:67190aa7d3c753a2c626b6402757ce15b71523df1b46616425559675cc5db4a7
+size 363

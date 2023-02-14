@@ -1,22 +1,3 @@
-package com.loiane.dto;
-
-import java.util.Map;
-
-public class XmlPatchDto {
-    private Map<String, Object> updates;
-
-    public XmlPatchDto() {}
-
-    public XmlPatchDto(Map<String, Object> updates) {
-        this.updates = updates;
-    }
-
-    public Map<String, Object> getUpdates() {
-        return updates;
-    }
-
-    public void setUpdates(Map<String, Object> updates) {
-        this.updates = updates;
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1088a1646cff9f5e503e4bec93805a0f1fdb1dcc86c2ecc464de921baf1f7e4e
+size 415

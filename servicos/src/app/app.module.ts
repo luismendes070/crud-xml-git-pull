@@ -1,23 +1,3 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
-import { CursosModule } from './cursos/cursos.module';
-import { CursosService } from './cursos/cursos.service';
-import { CriarCursoModule } from './criar-curso/criar-curso.module';
-import { LogService } from './shared/log.service';
-
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    CriarCursoModule,
-    CursosModule
-  ],
-  providers: [LogService],
-  //providers: [CursosService],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:f476dd4db705f72af94440c934e5660dd60ade9e071c9e905fd21b4a56b0dc78
+size 628

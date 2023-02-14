@@ -1,24 +1,3 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { KeyValueComponent } from './key-value/key-value.component';
-import { CursosComponent } from './cursos/cursos.component';
-import { AlunosComponent } from './alunos/alunos.component';
-
-@NgModule({
-  declarations: [
-    AppComponent,
-    KeyValueComponent,
-    CursosComponent,
-    AlunosComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:42537049fd10e79fcc5ecb8ccec87c6dff6dc6a3edc5e30f902db49114355ea5
+size 649

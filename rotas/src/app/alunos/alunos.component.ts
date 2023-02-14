@@ -1,20 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-import { AlunosService } from './alunos.service';
-
-@Component({
-  selector: 'app-alunos',
-  templateUrl: './alunos.component.html',
-  styleUrls: ['./alunos.component.css']
-})
-export class AlunosComponent implements OnInit {
-
-  private alunos: any[] = [];
-
-  constructor(private alunosService: AlunosService) { }
-
-  ngOnInit() {
-    this.alunos = this.alunosService.getAlunos();
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ab667ba05e012341ea44a4a664d7162f9aab038f4ef5cf380fa4ad93c9967f5
+size 437

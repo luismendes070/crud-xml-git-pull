@@ -1,17 +1,3 @@
-package com.loiane.xmlannotations;
-
-import com.loiane.model.XmlData;
-
-import java.util.Map;
-
-public class XmlDataPatcher {
-    public void patch(XmlData xmlData, Map<String, Object> updates) {
-        if (updates.containsKey("name")) {
-            xmlData.setName((String) updates.get("name"));
-        }
-        if (updates.containsKey("description")) {
-            xmlData.setDescription((String) updates.get("description"));
-        }
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd442ee3c8cc8a7f69c4374562686d85c38358dc37f42c5c99a94db068132def
+size 447

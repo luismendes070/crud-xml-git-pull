@@ -1,14 +1,3 @@
-import { AppPage } from './app.po';
-
-describe('servicos App', () => {
-  let page: AppPage;
-
-  beforeEach(() => {
-    page = new AppPage();
-  });
-
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:9891888cf5e3d4b8a45fd24f52b1ee2dd87fc20aebc2d8b66296c2dc0323944b
+size 290

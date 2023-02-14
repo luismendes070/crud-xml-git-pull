@@ -1,34 +1,3 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { EnviarValorService } from '../enviar-valor.service';
-import { Subscription } from 'rxjs';
-import { tap } from 'rxjs/operators';
-
-@Component({
-  selector: 'app-poc-unsub',
-  template: `
-    <app-poc-base [nome]="nome"
-      [valor]="valor" estilo="bg-secondary">
-    </app-poc-base>
-  `
-})
-export class PocUnsubComponent implements OnInit, OnDestroy {
-
-  nome = 'Componente com unsubscribe';
-  valor: string;
-
-  sub: Subscription[] = [];
-
-  constructor(private service: EnviarValorService) { }
-
-  ngOnInit() {
-    this.sub.push(this.service.getValor()
-      .pipe(tap(v => console.log(this.nome, v)))
-      .subscribe(novoValor => this.valor = novoValor));
-  }
-
-  ngOnDestroy() {
-    this.sub.forEach(s => s.unsubscribe());
-    console.log(`${this.nome} foi destruido`);
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a33b571c98f048e04aed23feac7da9ba78fe8cf3b5d26da9468821d79b23c772
+size 848

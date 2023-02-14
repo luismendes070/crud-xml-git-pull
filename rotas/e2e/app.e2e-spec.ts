@@ -1,14 +1,3 @@
-import { AppPage } from './app.po';
-
-describe('rotas App', () => {
-  let page: AppPage;
-
-  beforeEach(() => {
-    page = new AppPage();
-  });
-
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1b7cfd4e847b14147659fb3b539326bf12bdc0a4f007b7f289ebe5d4ff40333
+size 287

@@ -1,26 +1,3 @@
-import { MeuFormModule } from './meu-form/meu-form.module';
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
-import { DataBindingComponent } from './data-binding/data-binding.component';
-import { InputPropertyComponent } from './input-property/input-property.component';
-import { OutputPropertyComponent } from './output-property/output-property.component';
-import { CicloComponent } from './ciclo/ciclo.component';
-
-@NgModule({
-  declarations: [
-    AppComponent,
-    DataBindingComponent,
-    InputPropertyComponent,
-    OutputPropertyComponent,
-    CicloComponent
-  ],
-  imports: [
-    BrowserModule,
-    MeuFormModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8193b7df5a9f566e8ea35a150f093af16d11e077c80ac99078cc737d76c64a8
+size 803

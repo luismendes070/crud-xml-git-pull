@@ -1,20 +1,3 @@
-import { SharedModule } from './../shared/shared.module';
-import { DataFormComponent } from './data-form.component';
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
-@NgModule({
-  imports: [
-    SharedModule,
-    CommonModule,
-    HttpClientModule,
-    FormsModule,
-    ReactiveFormsModule,
-  ],
-  declarations: [
-    DataFormComponent
-  ]
-})
-export class DataFormModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:614dd2422c45ca51e151e18a9c23ab7360fce1a7c0cbce4c0dbc43903e80ae89
+size 541

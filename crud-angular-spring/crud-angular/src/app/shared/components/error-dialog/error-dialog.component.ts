@@ -1,16 +1,3 @@
-import { Component, Inject, OnInit } from '@angular/core';
-import { MAT_DIALOG_DATA } from '@angular/material/dialog';
-
-@Component({
-  selector: 'app-error-dialog',
-  templateUrl: './error-dialog.component.html',
-  styleUrls: ['./error-dialog.component.scss']
-})
-export class ErrorDialogComponent implements OnInit {
-
-  constructor(@Inject(MAT_DIALOG_DATA) public data: string) { }
-
-  ngOnInit(): void {
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9745acb83b331796be092e4120eb84710459b68615bae70049d59805e097f47
+size 411

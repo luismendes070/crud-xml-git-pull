@@ -1,18 +1,3 @@
-import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Rx';
-import { CanActivateChild, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
-
-@Injectable()
-export class CursosGuard implements CanActivateChild {
-
-    	canActivateChild(
-            route: ActivatedRouteSnapshot,
-            state: RouterStateSnapshot
-        ): Observable<boolean>|boolean {
-
-            console.log('guarda de rota filha');
-
-            return true;
-        }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a401136bcaef3716c50b285ea72914bef100dbfb142974cdfaac1396d5f1ac6b
+size 484

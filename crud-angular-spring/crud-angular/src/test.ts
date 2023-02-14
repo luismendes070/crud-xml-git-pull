@@ -1,15 +1,3 @@
-// This file is required by karma.conf.js and loads recursively all the .spec and framework files
-
-import 'zone.js/testing';
-import { getTestBed } from '@angular/core/testing';
-import {
-  BrowserDynamicTestingModule,
-  platformBrowserDynamicTesting
-} from '@angular/platform-browser-dynamic/testing';
-
-// First, initialize the Angular testing environment.
-getTestBed().initTestEnvironment(
-  BrowserDynamicTestingModule,
-  platformBrowserDynamicTesting(),
-  { teardown: { destroyAfterEach: true }},
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c5cca5aee9c82badf990cf8cf69eed57e7f9f1c41bd8307608fe706dfc9e655
+size 502

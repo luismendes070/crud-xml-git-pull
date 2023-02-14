@@ -1,28 +1,3 @@
-import { Directive, HostListener, HostBinding,
-  Input } from '@angular/core';
-
-@Directive({
-  selector: '[highlight]'
-})
-export class HighlightDirective {
-
-  @HostListener('mouseenter') onMouseOver(){
-      this.backgroundColor = this.highlightColor;
-  }
-
-  @HostListener('mouseleave') onMouseLeave(){
-      this.backgroundColor = this.defaultColor;
-  }
-
-  @HostBinding('style.backgroundColor') backgroundColor: string;
-
-  @Input() defaultColor: string = 'white';
-  @Input('highlight') highlightColor: string = 'yellow';
-
-  constructor() { }
-
-  ngOnInit(){
-    this.backgroundColor = this.defaultColor;
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2a68180c477dfd619dee0ac2a7b1d4220816e7121eaec34142481e5f602c32b
+size 611

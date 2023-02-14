@@ -1,17 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-diretiva-ngswitch',
-  templateUrl: './diretiva-ngswitch.component.html',
-  styleUrls: ['./diretiva-ngswitch.component.css']
-})
-export class DiretivaNgswitchComponent implements OnInit {
-
-  aba: string = 'home';
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ebf20c5271488395496c1e03419942cc809f18977338714b3572fdac137ee5c1
+size 337

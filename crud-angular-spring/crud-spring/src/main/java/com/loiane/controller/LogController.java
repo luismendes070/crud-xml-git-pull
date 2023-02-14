@@ -1,26 +1,3 @@
-package com.loiane.controller;
-
-import com.loiane.model.Log;
-
-import com.loiane.service.LogService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-
-@RestController
-@RequestMapping("/logs")
-public class LogController {
-    @Autowired
-    private LogService logService;
-
-    @GetMapping
-    public List getAllLogs() {
-        return logService.getAllLogs();
-    }
-
-    @PostMapping
-    public Log createLog(@RequestParam String message) {
-        return logService.createLog(message);
-    }
-} // end class LogController
+version https://git-lfs.github.com/spec/v1
+oid sha256:a79799d6ccea74e86968bf5bba4eca25d8ca2754288af886be6dfba9bd165521
+size 608

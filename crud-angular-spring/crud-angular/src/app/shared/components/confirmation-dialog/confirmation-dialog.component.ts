@@ -1,22 +1,3 @@
-import { Component, Inject, OnInit } from '@angular/core';
-import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-
-@Component({
-  selector: 'app-confirmation-dialog',
-  templateUrl: './confirmation-dialog.component.html',
-  styleUrls: ['./confirmation-dialog.component.scss']
-})
-export class ConfirmationDialogComponent implements OnInit {
-
-  constructor(
-    public dialogRef: MatDialogRef<ConfirmationDialogComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: string,
-  ) { }
-
-  ngOnInit(): void {
-  }
-
-  onConfirm(result: boolean): void {
-    this.dialogRef.close(result);
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:422754534dc7668f49e8bd72a0823fb39ac1482be5322156775587072312c607
+size 602

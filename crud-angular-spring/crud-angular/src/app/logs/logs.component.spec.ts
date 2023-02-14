@@ -1,23 +1,3 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { LogsComponent } from './logs.component';
-
-describe('LogsComponent', () => {
-  let component: LogsComponent;
-  let fixture: ComponentFixture<LogsComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ LogsComponent ]
-    })
-    .compileComponents();
-
-    fixture = TestBed.createComponent(LogsComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:52d63352f15165987e8aadb179b9e2168a4452abcd1d6945be84f946b9a18066
+size 585

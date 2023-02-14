@@ -1,16 +1,3 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
-import { ReactiveSearchRoutingModule } from './reactive-search-routing.module';
-import { LibSearchComponent } from './lib-search/lib-search.component';
-import { ReactiveFormsModule } from '@angular/forms';
-
-@NgModule({
-  declarations: [LibSearchComponent],
-  imports: [
-    CommonModule,
-    ReactiveSearchRoutingModule,
-    ReactiveFormsModule
-  ]
-})
-export class ReactiveSearchModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc40362d3c6373d00c83f23ea3c47bba32da54c5cf6055b637538ce05634b2f8
+size 481

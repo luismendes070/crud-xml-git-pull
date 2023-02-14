@@ -1,23 +1,3 @@
-import { AppPage } from './app.po';
-import { browser, logging } from 'protractor';
-
-describe('workspace-project App', () => {
-  let page: AppPage;
-
-  beforeEach(() => {
-    page = new AppPage();
-  });
-
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getTitleText()).toEqual('novidades-v9 app is running!');
-  });
-
-  afterEach(async () => {
-    // Assert that there are no errors emitted from the browser
-    const logs = await browser.manage().logs().get(logging.Type.BROWSER);
-    expect(logs).not.toContain(jasmine.objectContaining({
-      level: logging.Level.SEVERE,
-    } as logging.Entry));
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:cee899b394a97d7c65c5736ec2475d1b7b34d6e87b93cc4c9c0bc62a5bd1e34a
+size 645

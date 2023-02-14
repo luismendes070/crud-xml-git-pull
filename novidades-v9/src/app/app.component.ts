@@ -1,21 +1,3 @@
-import { Component } from '@angular/core';
-import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Observable } from 'rxjs';
-import { map, shareReplay } from 'rxjs/operators';
-
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
-})
-export class AppComponent {
-
-  isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
-  .pipe(
-    map(result => result.matches),
-    shareReplay()
-  );
-
-constructor(private breakpointObserver: BreakpointObserver) {}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:108ebe1896ecc2350db817c943500e26524e954c770106d6b79da67094b333c9
+size 570

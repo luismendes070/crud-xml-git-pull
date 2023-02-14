@@ -1,19 +1,3 @@
-import { Directive, ElementRef, Renderer2 } from '@angular/core';
-
-@Directive({
-  selector: 'p[fundoAmarelo]'
-})
-export class FundoAmareloDirective {
-
-  constructor(
-    private _elementRef: ElementRef,
-    private _renderer: Renderer2
-    ) { 
-    //console.log(this._elementRef);
-    //this._elementRef.nativeElement.style.backgroundColor = 'yellow';
-    //console.log(this._elementRef);
-//this._elementRef.nativeElement.style.backgroundColor = 'yellow';
-this._renderer.setStyle(this._elementRef.nativeElement, 'background-color', 'yellow');
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:14df76a083ed64665832e9244e24d63ffca8f53be9ca5aca9595a9b08af83dcb
+size 551

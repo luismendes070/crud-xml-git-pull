@@ -1,22 +1,3 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
-import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
-import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
-import { CursosModule } from './cursos/cursos.module';
-
-@NgModule({
-  declarations: [
-    AppComponent,
-    MeuPrimeiroComponent,
-    MeuPrimeiro2Component
-  ],
-  imports: [
-    BrowserModule,
-    CursosModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:f896688f283907eaaf89c47f8ce432b9852cf3c38dc91deec16f7578e29b795b
+size 599

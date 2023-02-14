@@ -1,26 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-import { EnviarValorService } from '../enviar-valor.service';
-
-@Component({
-  selector: 'app-unsubscribe-poc',
-  templateUrl: './unsubscribe-poc.component.html',
-  styleUrls: ['./unsubscribe-poc.component.scss']
-})
-export class UnsubscribePocComponent implements OnInit {
-
-  mostrarComponentes = true;
-
-  constructor(private service: EnviarValorService) { }
-
-  ngOnInit() {
-  }
-
-  emitirValor(valor: string) {
-    this.service.emitirValor(valor);
-  }
-
-  destruirComponentes() {
-    this.mostrarComponentes = !this.mostrarComponentes;
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:61d3a6428bc6e4e941d6b5bf4106639b9aa8a5460c8dee82a6401ea57bb9edd4
+size 592

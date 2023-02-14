@@ -1,18 +1,3 @@
-package com.loiane.controller;
-
-import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseStatus;
-import org.springframework.web.bind.annotation.RestControllerAdvice;
-
-import com.loiane.exception.RecordNotFoundException;
-
-@RestControllerAdvice
-public class ApplicationControllerAdvice {
-
-    @ExceptionHandler(RecordNotFoundException.class)
-    @ResponseStatus(HttpStatus.NOT_FOUND)
-    public String handleNotFoundException(RecordNotFoundException ex) {
-        return ex.getMessage();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae01177f8a573aa0b372cdff81b7d5e063484b534175cbd78ba675d180ba0f82
+size 601

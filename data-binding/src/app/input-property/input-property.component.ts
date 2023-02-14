@@ -1,18 +1,3 @@
-import { Component, OnInit, Input } from '@angular/core';
-
-@Component({
-  selector: 'app-curso',
-  templateUrl: './input-property.component.html',
-  styleUrls: ['./input-property.component.css']//,
-  //inputs: ['nomeCurso:nome']
-})
-export class InputPropertyComponent implements OnInit {
-
-  @Input('nome') nomeCurso: string = '';
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e4f303ab0a86df1bb90b7612e5d3c8390e1fd428fbf3a4a3dafa003f4bb0562
+size 374

@@ -1,23 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-operador-elvis',
-  templateUrl: './operador-elvis.component.html',
-  styleUrls: ['./operador-elvis.component.css']
-})
-export class OperadorElvisComponent implements OnInit {
-
-  tarefa: any = {
-    desc: 'Descrição da tarefa',
-    responsavel: {
-      usuario: null
-    }
-    //responsavel : {nome: 'Loiane'}
-  };
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f10509fad9d97ff01f038689321cd62e956d7692e9703895ee220e29ee82a74
+size 441

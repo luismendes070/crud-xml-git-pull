@@ -1,26 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-import { AuthService } from './auth.service';
-import { Usuario } from './usuario';
-
-@Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
-})
-export class LoginComponent implements OnInit {
-
-  usuario: Usuario = new Usuario();
-
-  constructor(private authService: AuthService) { }
-
-  ngOnInit() {
-
-  }
-
-  fazerLogin(){
-    //console.log(this.usuario);
-    this.authService.fazerLogin(this.usuario);
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:951b8cbe20c27bd6dd9cc793d3b0980580226aadc03b05e930da98c4b7414719
+size 520

@@ -1,24 +1,3 @@
-var minhaVar = 'minha variavel';
-
-function minhaFunc(x, y) {
-    return x + y;
-}
-
-//ES 6 ou ES 2015
-let num = 2;
-const PI = 3.14;
-
-var numeros = [1, 2, 3];
-numeros.map(function(valor) {
-    return valor * 2;
-});
-numeros.map(valor => valor * 2); //ES 2015
-
-class Matematica {
-    soma(x, y){
-        return x + y;
-    }
-}
-
-var n1 = 'sdfsdf';
-n1 = 4;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d18429d3a679ac26a02d0eaa0d81e5cf63da4fd82635c85957e811382cfef839
+size 348

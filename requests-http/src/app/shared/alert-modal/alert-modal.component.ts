@@ -1,23 +1,3 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { BsModalRef } from 'ngx-bootstrap/modal';
-
-@Component({
-  selector: 'app-alert-modal',
-  templateUrl: './alert-modal.component.html',
-  styleUrls: ['./alert-modal.component.scss']
-})
-export class AlertModalComponent implements OnInit {
-
-  @Input() type = 'success';
-  @Input() message: string;
-
-  constructor(public bsModalRef: BsModalRef) { }
-
-  ngOnInit() {
-  }
-
-  onClose() {
-    this.bsModalRef.hide();
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3958182b38ba44652a6ca000468bd1415a4ffd9847bb7ce886a629c93aefc47b
+size 480

@@ -1,21 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-diretivas-customizadas',
-  templateUrl: './diretivas-customizadas.component.html',
-  styleUrls: ['./diretivas-customizadas.component.css']
-})
-export class DiretivasCustomizadasComponent implements OnInit {
-
-  mostrarCursos: boolean = false;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-  onMostrarCursos(){
-    this.mostrarCursos = !this.mostrarCursos;
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:454da25833b61ef88f5e4631603a58c8bad33c68d0310296539d1c5fe12583ab
+size 439

@@ -1,23 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-diretiva-ngif',
-  templateUrl: './diretiva-ngif.component.html',
-  styleUrls: ['./diretiva-ngif.component.css']
-})
-export class DiretivaNgifComponent implements OnInit {
-
-  cursos: string[] = ["Angular 2"];
-
-  mostrarCursos: boolean = false;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-  onMostrarCursos(){
-    this.mostrarCursos = !this.mostrarCursos;
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5a3096240957e921a773566dd0d899e9688ef95fad56fcf1e6cdac7395a2716
+size 440

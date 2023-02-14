@@ -1,20 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-import { XmlService } from './xml.service';
-
-@Component({
-  selector: 'app-xml',
-  template: <pre>{{ xmlData:string }}</pre>,
-  templateUrl: './xml.component.html',
-  styleUrls: ['./xml.component.scss'],
-})
-export class XmlComponent implements OnInit {
-  xmlData: string | undefined;
-
-  constructor(private xmlService: XmlService) {}
-
-  ngOnInit() {
-    this.xmlService.getXmlData().subscribe((data:string) => {
-      this.xmlData = data;
-    });
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd881e9117579412cdb95cf85df686f23b7785d0f86e66c611c1ff05f88981e9
+size 504

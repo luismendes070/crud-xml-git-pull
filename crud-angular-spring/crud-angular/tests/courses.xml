@@ -1,1 +1,3 @@
-<courses><course category="backend"><id>123456789</id><name>Course Name</name></course><course category="frontend"><id>223456789</id><name>Course Name 2</name></course></courses>
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e4a1f7cabdd4d271d3307059b56a582794be555bb94f683ec9512c7e22cfeb8
+size 178

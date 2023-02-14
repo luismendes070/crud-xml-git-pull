@@ -1,15 +1,3 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
-import { NovidadesTypescriptRoutingModule } from './novidades-typescript-routing.module';
-import { NovidadesComponent } from './novidades/novidades.component';
-
-
-@NgModule({
-  declarations: [NovidadesComponent],
-  imports: [
-    CommonModule,
-    NovidadesTypescriptRoutingModule
-  ]
-})
-export class NovidadesTypescriptModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:b686eab205ce93270f5b2347df123482eeeaee917e4172286c3d1f8908d2acae
+size 421

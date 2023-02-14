@@ -1,21 +1,3 @@
-import { CursosService } from './cursos.service';
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
-import { CursosComponent } from './cursos.component';
-import { CursoDetalheComponent } from './curso-detalhe/curso-detalhe.component';
-
-@NgModule({
-  imports: [
-    CommonModule
-  ],
-  declarations: [
-    CursosComponent,
-    CursoDetalheComponent
-  ],
-  exports: [
-    CursosComponent
-  ],
-  providers: [ CursosService ]
-})
-export class CursosModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:7bcd379c073a497a785d434940fa3cd500ca31df4eace85bf5af013f99f5af5d
+size 496

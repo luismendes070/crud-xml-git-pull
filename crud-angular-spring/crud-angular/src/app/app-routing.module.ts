@@ -1,16 +1,3 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'courses' },
-  {
-    path: 'courses',
-    loadChildren: () => import('./courses/courses.module').then(m => m.CoursesModule)
-  }
-];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa8294ea9753de8bf66e6b403f0f100388aebda128f87adeb44f8a7e8d9ab1d6
+size 419

@@ -1,19 +1,3 @@
-import { Injectable } from '@angular/core';
-import { CrudService } from '../shared/crud-service';
-import { Curso } from './curso';
-import { HttpClient } from '@angular/common/http';
-import { environment } from '../../environments/environment';
-
-@Injectable({
-  providedIn: 'root'
-})
-export class Cursos2Service extends CrudService<Curso> {
-
-  constructor(protected http: HttpClient) {
-    super(http, `${environment.API}cursos`);
-  }
-
-  loadByID(id) {
-    return null;
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:52de3f83ee901c267ca8625104d8a1a42c565b4e5b09e3a9f34031829ba71d31
+size 475

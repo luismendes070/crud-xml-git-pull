@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="PersistenceUnitSettings">
-    <persistence-units>
-      <persistence-unit name="Default">
-        <packages>
-          <package value="com.loiane" />
-        </packages>
-      </persistence-unit>
-    </persistence-units>
-  </component>
-</project>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a843cb68943dfc27d48bc32addcc00b58ad609e0a1da7cc886d4e99ba49b4b0
+size 326

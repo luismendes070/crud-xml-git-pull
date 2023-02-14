@@ -1,24 +1,3 @@
-import { Pipe, PipeTransform } from '@angular/core';
-
-@Pipe({
-  name: 'camelCase'
-})
-export class CamelCasePipe implements PipeTransform {
-
-  transform(value: any, args?: any): any {
-    let values = value.split(' ');
-    let result = '';
-
-    for (let v of values){
-      result += this.capitalize(v) + ' ';
-    }
-
-    return result;
-  }
-
-  capitalize(value: string){
-    return value.substr(0,1).toUpperCase() +
-      value.substr(1).toLowerCase();
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:880674499b3015cf3278ce9a54409f5de8b2af05fe4387d05a636548f95bc6bd
+size 458

@@ -1,36 +1,3 @@
-import { Directive, HostListener, HostBinding, ElementRef, Renderer2 } from '@angular/core';
-
-@Directive({
-  selector: '[highlightMouse]'
-})
-export class HighlightMouseDirective {
-
-  @HostListener('mouseenter') onMouseOver(){
-    /*this._renderer.setElementStyle(
-      this._elementRef.nativeElement,
-      'background-color', 'yellow'
-      );*/
-      this.backgroundColor = 'yellow';
-  }
-
-  @HostListener('mouseleave') onMouseLeave(){
-    /*this._renderer.setElementStyle(
-      this._elementRef.nativeElement,
-      'background-color', 'white'
-      );*/
-      this.backgroundColor = 'white';
-  }
-
-  //@HostBinding('style.backgroundColor') backgroundColor: string;
-  @HostBinding('style.backgroundColor') get setColor(){
-    //codigo extra;
-    return this.backgroundColor;  
-  }
-  private backgroundColor: string;
-
-  constructor(
-    //private _elementRef: ElementRef,
-    //private _renderer: Renderer
-    ) { }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b22a064b0a92ffc062b635851acdc8573017162f9b1fd7c6f26292033d06b75
+size 921

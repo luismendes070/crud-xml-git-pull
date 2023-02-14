@@ -1,35 +1,3 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-
-import { Course } from '../../model/course';
-
-@Component({
-  selector: 'app-courses-list',
-  templateUrl: './courses-list.component.html',
-  styleUrls: ['./courses-list.component.scss']
-})
-export class CoursesListComponent implements OnInit {
-
-  @Input() courses: Course[] = [];
-  @Output() add = new EventEmitter(false);
-  @Output() edit = new EventEmitter(false);
-  @Output() remove = new EventEmitter(false);
-
-  readonly displayedColumns = ['name', 'category', 'actions'];
-
-  constructor() { }
-
-  ngOnInit(): void { }
-
-  onAdd() {
-    this.add.emit(true);
-  }
-
-  onEdit(course: Course) {
-    this.edit.emit(course);
-  }
-
-  onDelete(course: Course) {
-    this.remove.emit(course);
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99adb0ce049c65868ceea1220229a159b59503939bf397f815c45a4c10055a91
+size 771

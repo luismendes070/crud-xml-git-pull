@@ -1,21 +1,3 @@
-import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/router';
-import { Observable, of } from 'rxjs';
-
-import { Course } from '../model/course';
-import { CoursesService } from '../services/courses.service';
-
-@Injectable({
-  providedIn: 'root'
-})
-export class CourseResolver implements Resolve<Course> {
-
-  constructor(private service: CoursesService) { }
-
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<Course> {
-    if (route.params && route.params['id']) {
-      return this.service.loadById(route.params['id']);
-    }
-    return of({ _id: '', name: '', category: '' });
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3922614d44c49d29e4b8c5bdc7d0efcdcd675bb108b8e78f6f475ed269a640dc
+size 682

@@ -1,22 +1,3 @@
-import { Directive, Input,
-  TemplateRef, ViewContainerRef } from '@angular/core';
-
-@Directive({
-  selector: '[ngElse]'
-})
-export class NgElseDirective {
-
-  @Input() set ngElse(condition: boolean){
-    if (!condition){
-      this._viewContainerRef.createEmbeddedView(this._templateRef);
-    } else {
-      this._viewContainerRef.clear();
-    }
-  }
-
-  constructor(
-    private _templateRef: TemplateRef<any>,
-    private _viewContainerRef: ViewContainerRef
-  ) { }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b61cec80425bcca1d8f9898373d3cf6522aefafc8f3b630cb8c2562521045ef1
+size 467

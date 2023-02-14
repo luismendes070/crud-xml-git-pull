@@ -1,21 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-diretiva-ngclass',
-  templateUrl: './diretiva-ngclass.component.html',
-  styleUrls: ['./diretiva-ngclass.component.css']
-})
-export class DiretivaNgclassComponent implements OnInit {
-
-  meuFavorito: boolean = false;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-  onClick(){
-    this.meuFavorito = !this.meuFavorito;
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d766cb3e8b6dbc0c2e19c8fe1f3c69a429632e1bc2b3d455117818c3a0ce10d
+size 401

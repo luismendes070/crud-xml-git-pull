@@ -1,15 +1,3 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { AlertModalComponent } from './alert-modal/alert-modal.component';
-import { ConfirmModalComponent } from './confirm-modal/confirm-modal.component';
-
-@NgModule({
-  imports: [
-    CommonModule
-  ],
-  declarations: [AlertModalComponent, ConfirmModalComponent],
-  exports: [AlertModalComponent],
-  // entryComponents não é necessário a partir do angular v9
-  // entryComponents: [AlertModalComponent, ConfirmModalComponent]
-})
-export class SharedModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a72bdb5caaa64f231bc530c53e01434d487a81ddea39c350373ea0a326541a7
+size 554

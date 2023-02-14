@@ -1,20 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-diretiva-ngfor',
-  templateUrl: './diretiva-ngfor.component.html',
-  styleUrls: ['./diretiva-ngfor.component.css']
-})
-export class DiretivaNgforComponent implements OnInit {
-
-  cursos: string[] = ["Angular 2", "Java", "Phonegap"]; 
-
-  constructor() { }
-
-  ngOnInit() {
-    for (let i=0; i<this.cursos.length; i++){
-      let curso = this.cursos[i];
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8c7c2bd98330c752861bc853737e88a1b148396e7f5278ba247950c711ac95b
+size 444

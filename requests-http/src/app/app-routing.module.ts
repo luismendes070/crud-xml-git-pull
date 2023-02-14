@@ -1,30 +1,3 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-
-const routes: Routes = [
-  {
-    path: '', pathMatch: 'full', redirectTo: 'busca-reativa'
-  },
-  {
-    path: 'cursos',
-    loadChildren: () => import('./cursos/cursos.module').then(m => m.CursosModule)
-  },
-  {
-    path: 'upload',
-    loadChildren: () => import('./upload-file/upload-file.module').then(m => m.UploadFileModule)
-  },
-  {
-    path: 'rxjs-poc',
-    loadChildren: () => import('./unsubscribe-rxjs/unsubscribe-rxjs.module').then(m => m.UnsubscribeRxjsModule)
-  },
-  {
-    path: 'busca-reativa',
-    loadChildren: () => import('./reactive-search/reactive-search.module').then(m => m.ReactiveSearchModule)
-  }
-];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d726430458db86b2e35fd998748d5c18ae02bebe7c4f289990da0ad739c7b82
+size 841

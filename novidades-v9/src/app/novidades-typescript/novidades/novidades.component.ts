@@ -1,36 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-novidades',
-  templateUrl: './novidades.component.html',
-  styleUrls: ['./novidades.component.scss']
-})
-export class NovidadesComponent implements OnInit {
-
-  tarefa: any = {
-    desc: 'Descrição da tarefa',
-    responsavel: {
-      usuario: null
-    }
-    // responsavel : {nome: 'Loiane'}
-  };
-  valorPadrao = 'Loiane';
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-  upperCase() {
-    if (this.tarefa && this.tarefa.responsavel && this.tarefa.responsavel.usuario) {
-      this.tarefa.responsavel.usuario.toUpperCase();
-     }
-
-    // this.tarefa.responsavel.usuario.toUpperCase();
-
-    const user = this.tarefa?.responsavel?.usuario?.toUpperCase() ?? this.valorPadrao;
-
-    return user;
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d29b3ebee9eae6ed1e88be3863b4b216c5057d2a9f98525375c7b53c67d125f7
+size 783

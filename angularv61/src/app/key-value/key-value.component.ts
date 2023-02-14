@@ -1,27 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-key-value',
-  templateUrl: './key-value.component.html',
-  styles: []
-})
-export class KeyValueComponent implements OnInit {
-
-  cursos = [
-    { id: '1', nome: 'Angular'},
-    { id: '2', nome: 'Java'},
-  ];
-
-  cursosComparator(a: any, b: any) {
-    if (a.key === b.key) {
-      return 0;
-    }
-    return a.key > b.key ? -1 : 1;
-  }
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f74f8b4784c935a9ec1d961213c735e5ee5e233e98b52587f4376714d8125ad
+size 458

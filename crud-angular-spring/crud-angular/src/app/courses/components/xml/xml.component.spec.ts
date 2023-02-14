@@ -1,23 +1,3 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { XmlComponent } from './xml.component';
-
-describe('XmlComponent', () => {
-  let component: XmlComponent;
-  let fixture: ComponentFixture<XmlComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ XmlComponent ]
-    })
-    .compileComponents();
-
-    fixture = TestBed.createComponent(XmlComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c7367b9a0d7f4029c2acdc7ad1df58f31fac5edda74032dbf92dec9ddc4b0a1
+size 578

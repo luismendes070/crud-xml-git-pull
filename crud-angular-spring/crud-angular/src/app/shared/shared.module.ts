@@ -1,25 +1,3 @@
-import { CommonModule } from '@angular/common';
-import { NgModule } from '@angular/core';
-
-import { AppMaterialModule } from './app-material/app-material.module';
-import { ErrorDialogComponent } from './components/error-dialog/error-dialog.component';
-import { CategoryPipe } from './pipes/category.pipe';
-import { ConfirmationDialogComponent } from './components/confirmation-dialog/confirmation-dialog.component';
-
-@NgModule({
-  declarations: [
-    ErrorDialogComponent,
-    CategoryPipe,
-    ConfirmationDialogComponent
-  ],
-  imports: [
-    CommonModule,
-    AppMaterialModule
-  ],
-  exports: [
-    ErrorDialogComponent,
-    ConfirmationDialogComponent,
-    CategoryPipe
-  ]
-})
-export class SharedModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:e595cfc0605c21674ad627e693ca1ec7e22d81c83014fcc8fbc5c844c2ae2566
+size 712

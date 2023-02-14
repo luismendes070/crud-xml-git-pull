@@ -1,28 +1,3 @@
-import { AlunosDeactivateGuard } from './../guards/alunos-deactivate.guard';
-import { AlunosGuard } from './../guards/alunos.guard';
-import { AlunoFormComponent } from './aluno-form/aluno-form.component';
-import { AlunoDetalheComponent } from './aluno-detalhe/aluno-detalhe.component';
-import { AlunosComponent } from './alunos.component';
-import { RouterModule } from '@angular/router';
-import { NgModule } from '@angular/core';
-import { AlunoDetalheResolver } from './guards/aluno-detalhe.resolver';
-
-const alunosRoutes = [
-    {path: '', component: AlunosComponent, 
-     canActivateChild: [AlunosGuard],
-     children : [
-        {path: 'novo', component: AlunoFormComponent},
-        {path: ':id', component: AlunoDetalheComponent,
-            resolve: { aluno : AlunoDetalheResolver }
-        },
-        {path: ':id/editar', component: AlunoFormComponent,
-            canDeactivate: [AlunosDeactivateGuard]
-        }
-    ]}
-];
-
-@NgModule({
-    imports: [RouterModule.forChild(alunosRoutes)],
-    exports: [RouterModule]
-})
-export class AlunosRoutingModule {}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc60043c1b12d1d4654d60c43f638cdcdfda18f1ab11e3e9357ed53511efd5c2
+size 1064

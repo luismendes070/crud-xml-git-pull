@@ -1,23 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-
-@component({
-selector: 'app-logs',
-templateUrl: './logs.component.html',
-styleUrls: ['./logs.component.css']
-})
-export class LogsComponent implements OnInit {
-logs: any[];
-
-constructor(private http: HttpClient) {} // end constructor
-
-ngOnInit() {
-this.getLogs();
-} // end method ngOnInit
-
-getLogs() {
-this.http.get('http://localhost:8080/logs').subscribe(logs => {
-this.logs = logs;
-});
-} // end method
-} // end class
+version https://git-lfs.github.com/spec/v1
+oid sha256:06f8be989d3f46aa80e433d4ab8c28672bfe0389f99caa48282c050c58f43654
+size 521

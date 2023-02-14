@@ -1,22 +1,3 @@
-import { IFormCanDeactivate } from './iform-candeactivate';
-import { Observable } from 'rxjs/Rx';
-import { ActivatedRouteSnapshot, RouterStateSnapshot, CanDeactivate } from '@angular/router';
-import { Injectable } from '@angular/core';
-import { AlunoFormComponent } from './../alunos/aluno-form/aluno-form.component';
-
-@Injectable()
-export class AlunosDeactivateGuard implements CanDeactivate<IFormCanDeactivate> {
-                
-        canDeactivate(
-            component: IFormCanDeactivate,
-            route: ActivatedRouteSnapshot,
-            state: RouterStateSnapshot
-        ): Observable<boolean>|Promise<boolean>|boolean {
-
-            console.log('guarda de desativação');
-
-            //return component.podeMudarRota ? component.podeMudarRota() : true;
-
-            return component.podeDesativar ? component.podeDesativar() : true;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:278d65f869831a7bd793e074b053d6b660c468698e45590eb7c1f0f83c0b2098
+size 860

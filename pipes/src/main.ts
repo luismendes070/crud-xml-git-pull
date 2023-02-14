@@ -1,11 +1,3 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
-
-if (environment.production) {
-  enableProdMode();
-}
-
-platformBrowserDynamic().bootstrapModule(AppModule);
+version https://git-lfs.github.com/spec/v1
+oid sha256:be52ab7065e7aececeeaef6a75ce489fb54626265377229afd1ed5e3057a76ca
+size 336

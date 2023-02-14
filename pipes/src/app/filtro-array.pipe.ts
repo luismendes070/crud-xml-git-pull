@@ -1,20 +1,3 @@
-import { Pipe, PipeTransform } from '@angular/core';
-
-@Pipe({
-  name: 'filtroArray'
-})
-export class FiltroArrayPipe implements PipeTransform {
-
-  transform(value: any, args?: any): any {
-
-    if (value.length === 0 || args === undefined){
-      return value;
-    }
-
-    let filter = args.toLocaleLowerCase();
-    return value.filter(
-      v => v.toLocaleLowerCase().includes(filter)
-    );
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cf251d4ae2cdb74d2ad2c8c9d8cc2134af4550fb55ee9a46c4a30247240a770
+size 398

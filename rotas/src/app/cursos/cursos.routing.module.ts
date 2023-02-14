@@ -1,19 +1,3 @@
-import { NgModule } from '@angular/core';
-import { ModuleWithProviders } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-
-import { CursosComponent } from './cursos.component';
-import { CursoDetalheComponent } from './curso-detalhe/curso-detalhe.component';
-import { CursoNaoEncontradoComponent } from './curso-nao-encontrado/curso-nao-encontrado.component';
-
-const cursosRoutes: Routes = [
-    { path: '', component: CursosComponent },
-    { path: 'naoEncontrado', component: CursoNaoEncontradoComponent },
-    { path: ':id', component: CursoDetalheComponent }
-];
-
-@NgModule({
-    imports: [RouterModule.forChild(cursosRoutes)],
-    exports: [RouterModule]
-})
-export class CursosRoutingModule {}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6b044ca67adfec8b0c87894e275a2d2839771893b698af75d319ee052259bbf
+size 725

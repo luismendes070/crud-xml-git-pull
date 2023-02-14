@@ -1,16 +1,3 @@
-import { FormsModule } from '@angular/forms';
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { MeuFormComponent } from './meu-form.component';
-
-@NgModule({
-  imports: [
-    CommonModule,
-    FormsModule
-  ],
-  declarations: [
-    MeuFormComponent
-  ],
-  exports: [MeuFormComponent]
-})
-export class MeuFormModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:9303816698eccbff0e219623f5706a893a0d28cd0f3354f1edb81ec2450679bf
+size 366

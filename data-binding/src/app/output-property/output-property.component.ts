@@ -1,34 +1,3 @@
-import { Component, OnInit, Input, EventEmitter, Output, ViewChild, ElementRef } from '@angular/core';
-
-@Component({
-  selector: 'contador',
-  templateUrl: './output-property.component.html',
-  styleUrls: ['./output-property.component.css']//,
-  //outputs: ['mudouValor']
-})
-export class OutputPropertyComponent implements OnInit {
-
-  @Input() valor: number = 0;
-
-  @Output() mudouValor = new EventEmitter();
-
-  @ViewChild('campoInput', { static: true }) campoValorInput: ElementRef;
-
-  incrementa(){
-    //this.valor++;
-    this.campoValorInput.nativeElement.value++;
-    this.mudouValor.emit({novoValor: this.valor});
-  }
-
-  decrementa(){
-    //this.valor--
-    this.campoValorInput.nativeElement.value--;
-    this.mudouValor.emit({novoValor: this.valor});
-  }
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:85ac81a1c33cf2ce5584b8c9765fb7426995bfa8cfdd1df43f71a34a4d187aab
+size 807

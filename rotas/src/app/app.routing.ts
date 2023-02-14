@@ -1,18 +1,3 @@
-import { CursoNaoEncontradoComponent } from './cursos/curso-nao-encontrado/curso-nao-encontrado.component';
-import { CursoDetalheComponent } from './cursos/curso-detalhe/curso-detalhe.component';
-import { ModuleWithProviders } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-
-import { HomeComponent } from './home/home.component';
-import { CursosComponent } from './cursos/cursos.component';
-import { LoginComponent } from './login/login.component';
-
-const APP_ROUTES: Routes = [
-    { path: 'cursos', component: CursosComponent },
-    { path: 'curso/:id', component: CursoDetalheComponent },
-    { path: 'login', component: LoginComponent },
-    { path: 'naoEncontrado', component: CursoNaoEncontradoComponent },
-    { path: '', component: HomeComponent }
-];
-
-export const routing: ModuleWithProviders = RouterModule.forRoot(APP_ROUTES);
+version https://git-lfs.github.com/spec/v1
+oid sha256:842d324c934c7b3ea3a9f58d68cf2046af4d1d989895344b9a9deed2765b9c04
+size 869

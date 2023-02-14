@@ -1,17 +1,3 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { ReactiveFormsModule } from '@angular/forms';
-
-import { CursosRoutingModule } from './cursos-routing.module';
-import { CursosListaComponent } from './cursos-lista/cursos-lista.component';
-import { CursosFormComponent } from './cursos-form/cursos-form.component';
-
-@NgModule({
-  imports: [
-    CommonModule,
-    CursosRoutingModule,
-    ReactiveFormsModule
-  ],
-  declarations: [CursosListaComponent, CursosFormComponent]
-})
-export class CursosModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d2083ae2a252d75883835ce82ae60ef9d449bca0fddb1f947ca0f3e384086e6
+size 552

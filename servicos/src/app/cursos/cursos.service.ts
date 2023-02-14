@@ -1,28 +1,3 @@
-import { Injectable, EventEmitter } from '@angular/core';
-
-import { LogService } from '../shared/log.service';
-
-@Injectable() 
-export class CursosService {
-
-    emitirCursoCriado = new EventEmitter<string>();
-    static criouNovoCurso = new EventEmitter<string>();
-
-    private cursos: string[] = ['Angular 2', 'Java', 'Phonegap'];
-
-    constructor(private logService: LogService){
-        console.log('CursosService');
-    }
-
-    getCursos() {
-        this.logService.consoleLog('Obtendo lista de cursos');
-        return this.cursos;
-    }
-
-    addCurso(curso: string){
-        this.logService.consoleLog(`Criando um novo curso ${curso}`);
-        this.cursos.push(curso);
-        this.emitirCursoCriado.emit(curso);
-        CursosService.criouNovoCurso.emit(curso);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:695ecad8c583b7e4d0f4119bf4d2429888a6da54d3a46addd5a78fa9748a6a4b
+size 776

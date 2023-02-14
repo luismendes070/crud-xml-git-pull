@@ -1,17 +1,3 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-
-
-const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'typescript' },
-  {
-    path: 'typescript',
-    loadChildren: () => import('./novidades-typescript/novidades-typescript.module').then(m => m.NovidadesTypescriptModule)
-  },
-];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+version https://git-lfs.github.com/spec/v1
+oid sha256:3002a9aa52237eb0d525a29c26e79ddfa2e64603e6562c750565cce96883dce3
+size 465

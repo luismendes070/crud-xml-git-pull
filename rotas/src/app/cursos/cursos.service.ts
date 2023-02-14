@@ -1,26 +1,3 @@
-import { Injectable } from '@angular/core';
-
-@Injectable()
-export class CursosService {
-
-  getCursos(){
-    return [
-      {id: 1, nome: 'Angular 2'},
-      {id: 2, nome: 'Java'}
-    ];
-  }
-
-  getCurso(id: number){
-    let cursos = this.getCursos();
-    for (let i=0; i<cursos.length; i++){
-      let curso = cursos[i];
-      if (curso.id == id){
-        return curso;
-      }
-    }
-    return null;
-  }
-
-  constructor() { }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b42cda850951914b3cd26eaf49da988ce00be1762176c21413dd8c1a23a3157
+size 428

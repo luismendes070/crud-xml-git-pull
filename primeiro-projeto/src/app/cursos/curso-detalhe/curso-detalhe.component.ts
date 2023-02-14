@@ -1,15 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-curso-detalhe',
-  templateUrl: './curso-detalhe.component.html',
-  styleUrls: ['./curso-detalhe.component.css']
-})
-export class CursoDetalheComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:29d789d4876dfa627c2929c9a27b35d6b4a942817352070137c541c988707233
+size 296

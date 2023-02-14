@@ -1,28 +1,3 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
-import { UnsubscribeRxjsRoutingModule } from './unsubscribe-rxjs-routing.module';
-import { UnsubscribePocComponent } from './unsubscribe-poc/unsubscribe-poc.component';
-import { PocComponent } from './componentes/poc.component';
-import { PocAsyncComponent } from './componentes/poc-async.component';
-import { PocTakeUntilComponent } from './componentes/poc-take-until.component';
-import { PocTakeComponent } from './componentes/poc-take.component';
-import { PocUnsubComponent } from './componentes/poc-unsub.component';
-import { PocBaseComponent } from './poc-base/poc-base.component';
-
-@NgModule({
-  imports: [
-    CommonModule,
-    UnsubscribeRxjsRoutingModule
-  ],
-  declarations: [
-    UnsubscribePocComponent,
-    PocComponent,
-    PocAsyncComponent,
-    PocTakeUntilComponent,
-    PocTakeComponent,
-    PocUnsubComponent,
-    PocBaseComponent
-  ]
-})
-export class UnsubscribeRxjsModule {}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a57089a15e77bf21d539fe54d8e772c48e029ca8c268a4db57096c510c1dee4a
+size 985
