@@ -1,6 +1,6 @@
 {
   "name": "crud-angular",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.js",
@@ -30,7 +30,10 @@
     "install": "^0.13.0",
     "jsmockito": "^1.0.5",
     "npm": "^9.5.0",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
     "rxjs": "~6.6.0",
+    "sequelize": "^6.29.0",
     "tslib": "^2.3.0",
     "xml2js": "^0.4.23",
     "zone.js": "~0.11.4"
