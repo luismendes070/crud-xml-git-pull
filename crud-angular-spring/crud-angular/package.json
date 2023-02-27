@@ -1,6 +1,6 @@
 {
   "name": "crud-angular",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.js",
