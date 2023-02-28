@@ -1,6 +1,6 @@
 {
   "name": "crud-angular",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.js",
@@ -10,7 +10,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^15.0.4",
+    "@angular/animations": "^15.2.0",
     "@angular/cdk": "^15.0.3",
     "@angular/common": "^15.0.4",
     "@angular/compiler": "^15.0.4",
@@ -34,6 +34,7 @@
     "pg-hstore": "^2.3.4",
     "rxjs": "~6.6.0",
     "sequelize": "^6.29.0",
+    "sequelize-typescript": "^2.1.5",
     "tslib": "^2.3.0",
     "xml2js": "^0.4.23",
     "zone.js": "~0.11.4"
