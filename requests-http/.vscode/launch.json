@@ -1,15 +1,3 @@
-{
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Debug Angular",
-            "url": "http://localhost:4200",
-            "webRoot": "${workspaceFolder}"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:beb7c945db79e0d190b158a5316d5efc85023629e15aa985b9d5426009f280f4
+size 467

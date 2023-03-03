@@ -1,17 +1,3 @@
-/*
-  This is a "Solution Style" tsconfig.json file, and is used by editors and TypeScript’s language server to improve development experience.
-  It is not intended to be used to perform a compilation.
-
-  To learn more about this file see: https://angular.io/config/solution-tsconfig.
-*/
-{
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a82e0a9a243322aadffec10548fc4b68ff08405afa6fa6ed6b6cd70dea83d23b
+size 427

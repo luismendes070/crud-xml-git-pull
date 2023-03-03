@@ -1,22 +1,3 @@
-{
-  "compileOnSave": false,
-  "compilerOptions": {
-    "importHelpers": true,
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "es2015",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2017",
-      "dom"
-    ],
-    "module": "es2020",
-    "baseUrl": "./"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:42af6c27bf842d08cb06a4ba4682658b4760aa0aeaa5de96d68387a96790169a
+size 437

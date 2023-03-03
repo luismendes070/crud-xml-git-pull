@@ -1,10 +1,3 @@
-{
-  "emails": [
-    { "email": "email@email.com"},
-    { "email": "email1@email.com"},
-    { "email": "email2@email.com"},
-    { "email": "email3@email.com"},
-    { "email": "email4@email.com"},
-    { "email": "email5@email.com"}
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:97c132350dcdc1e0145181145946ae72d305432aa83fe38bc4f299aa01f32970
+size 236

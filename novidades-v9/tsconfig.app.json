@@ -1,14 +1,3 @@
-{
-  "extends": "./tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "./out-tsc/app",
-    "types": []
-  },
-  "files": [
-    "src/main.ts",
-    "src/polyfills.ts"
-  ],
-  "include": [
-    "src/**/*.d.ts"
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95ab6aaee977fed4a4b0a8975e43ab92e56612b3ea905827320c3efadbdeaae9
+size 215

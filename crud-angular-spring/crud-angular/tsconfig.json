@@ -1,10 +1,3 @@
-{
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
-    "allowJs": true
-  },
-  "files": ["src/index.ts"]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f66038d99274b0db39e8de30e2842fc5da5b9ab65439a5ca3f459b49838dcf2
+size 191
