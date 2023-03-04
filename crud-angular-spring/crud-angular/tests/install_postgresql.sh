@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# osgeo lubuntu 22
 # Update package list
 sudo apt update
 
